@@ -4,7 +4,7 @@ import { Module } from '@nestjs/common';
 import { APP_FILTER, APP_INTERCEPTOR } from '@nestjs/core';
 import { JwtModule } from '@nestjs/jwt';
 import { TypeOrmModule } from '@nestjs/typeorm/dist';
-import { ConfigService } from '@services/config.service';
+import { ConfigService } from '@modules/shared/services/config.service';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ErrorFilter } from './filters/exception.filters';
