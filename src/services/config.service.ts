@@ -22,7 +22,7 @@ export class ConfigService {
             host: this.get('MYSQL_HOST'),
             port: this.getNumber('MYSQL_PORT'),
             username: this.get('MYSQL_USERNAME'),
-            // password: this.get('MYSQL_PASSWORD'),
+            password: this.get('MYSQL_PASSWORD'),
             database: this.get('MYSQL_DATABASE'),
             synchronize: false,
             logging: true,
